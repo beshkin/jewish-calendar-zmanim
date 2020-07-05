@@ -1,0 +1,29 @@
+{
+  "name": "kosherdev/jewish-calendar-lib",
+  "type": "library",
+  "description": "Jewish calendar and zmanim library",
+  "keywords": [
+    "jewish",
+    "zmanim",
+    "kosher",
+    "calendar"
+  ],
+  "homepage": "https://iskosher.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Misha Beshkin",
+      "email": "misha@kosherdev.com",
+      "homepage": "https://beshkin.lv",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "nesbot/carbon": "^2.35"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kosherdev\\": "src/"
+    }
+  }
+}
