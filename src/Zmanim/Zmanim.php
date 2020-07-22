@@ -183,9 +183,27 @@ class Zmanim
     /**
      * @return string
      */
+    public function getMinchaGdolaGRO()
+    {
+        $time = $this->_getProportionalHours(6.5);
+        return $this->getCurrentDate()->setTime($time[0], $time[1])->format(self::timeFormat);
+    }
+
+    /**
+     * @return string
+     */
     public function getMinchaGdolaMA()
     {
         $time = $this->_getProportionalHours(6.5);
+        return $this->getCurrentDate()->setTime($time[0], $time[1])->addSeconds(45)->format(self::timeFormat);
+    }
+
+    /**
+     * @return string
+     */
+    public function getMinchaKtanaGRO()
+    {
+        $time = $this->_getProportionalHours(9.5);
         return $this->getCurrentDate()->setTime($time[0], $time[1])->format(self::timeFormat);
     }
 
@@ -195,7 +213,7 @@ class Zmanim
     public function getMinchaKtanaMA()
     {
         $time = $this->_getProportionalHours(9.5);
-        return $this->getCurrentDate()->setTime($time[0], $time[1])->format(self::timeFormat);
+        return $this->getCurrentDate()->setTime($time[0], $time[1])->addSeconds(57)->format(self::timeFormat);
     }
 
     /**
