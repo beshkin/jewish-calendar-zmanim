@@ -47,7 +47,7 @@ class JewishCalendar
      * @param $jewishYear
      * @return mixed
      */
-    public static function getJewishMonthName($jewishMonth, $jewishYear): bool
+    public static function getJewishMonthName($jewishMonth, $jewishYear): string
     {
         if (self::isJewishLeapYear($jewishYear))
             return JewishMonths::LEAP_YEAR[$jewishMonth - 1]['name'];
