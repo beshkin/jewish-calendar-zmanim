@@ -19,7 +19,11 @@
     }
   ],
   "require": {
-    "nesbot/carbon": "^2.35"
+    "nesbot/carbon": "^2.35",
+    "ext-calendar": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.2"
   },
   "autoload": {
     "psr-4": {
