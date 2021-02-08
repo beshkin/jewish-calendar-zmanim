@@ -68,6 +68,7 @@ class JewishMonths
         self::TEVET,
         self::SHEVAT,
         self::ADAR,
+        self::ADAR,
         self::NISAN,
         self::IYAR,
         self::SIVAN,
