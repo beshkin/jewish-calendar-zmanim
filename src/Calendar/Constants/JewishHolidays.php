@@ -20,7 +20,7 @@ class JewishHolidays
     const SHEMINI_AZERET_SIMCHAT_TORAH = "Shemini Azeret/Simchat Torah";
     const HANUKKAH_I = "Hanukkah I";
     const HANUKKAH_II = "Hanukkah II";
-    const HANUKKAH_III = "Hanukkah II";
+    const HANUKKAH_III = "Hanukkah III";
     const HANUKKAH_IV = "Hanukkah IV";
     const HANUKKAH_V = "Hanukkah V";
     const HANUKKAH_VI = "Hanukkah VI";
