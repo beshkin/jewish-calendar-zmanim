@@ -21,7 +21,6 @@ class Zmanim
     {
         $this->lat = $location->getLat();
         $this->lng = $location->getLng();
-        $this->hoursOffset = $location->getOffset();
         $this->currentDate = Carbon::now()->setTime(0, 0, 0);
         $this->hoursOffset = $location->getOffset() ?? 0;
     }
