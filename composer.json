@@ -19,7 +19,7 @@
     }
   ],
   "require": {
-    "nesbot/carbon": "^2.35",
+    "nesbot/carbon": "^3.0.0",
     "ext-calendar": "*",
     "webit/bcmath": "^2.0",
     "ext-bcmath": "*"
